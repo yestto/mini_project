@@ -1,0 +1,6 @@
+name: OpenRouter Free
+provider: openrouter
+endpoint: https://openrouter.ai/api/v1
+model: meta-llama/llama-3-8b-instruct:free
+api_key: ${OPENROUTER_API_KEY} # Replaced raw key to pass GitHub secret scanning
+enabled: true
