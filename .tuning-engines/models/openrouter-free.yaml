@@ -1,6 +1,0 @@
-name: OpenRouter Free
-provider: openrouter
-endpoint: https://openrouter.ai/api/v1
-model: meta-llama/llama-3-8b-instruct:free
-api_key: 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
-enabled: true
