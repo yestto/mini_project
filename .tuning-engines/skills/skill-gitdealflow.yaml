@@ -1,0 +1,3 @@
+name: GitDealFlow Signal Skill
+description: Skill for interacting with GitDealFlow Signal Agent
+enabled: true

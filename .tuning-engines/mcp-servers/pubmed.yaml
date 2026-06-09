@@ -1,0 +1,6 @@
+name: PubMed MCP
+url: https://pubmed.caseyjhand.com/mcp
+transport: http
+auth_method: api_key
+api_key: suhas
+enabled: true

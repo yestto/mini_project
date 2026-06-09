@@ -1,0 +1,5 @@
+name: US Weather MCP
+url: https://nws.caseyjhand.com/mcp
+transport: http
+auth_method: none
+enabled: true

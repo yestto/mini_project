@@ -1,0 +1,5 @@
+name: Clinical Trials MCP
+url: https://clinicaltrials.caseyjhand.com/mcp
+transport: http
+auth_method: none
+enabled: true

@@ -1,0 +1,6 @@
+name: Tooloracle A2A
+description: Tooloracle A2A agent
+url: https://tooloracle.io/a2a/jsonrpc
+protocol: a2a
+auth_method: none
+enabled: true

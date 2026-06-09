@@ -1,5 +1,6 @@
 name: Hacker News MCP
 url: https://hn.caseyjhand.com/mcp
 transport: http
-auth_method: none
+auth_method: jwt
+token: placeholder_jwt_token_here
 enabled: true

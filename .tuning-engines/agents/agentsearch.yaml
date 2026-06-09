@@ -1,0 +1,7 @@
+name: AgentSearch A2A
+description: AgentSearch A2A agent
+url: https://agentsearch.luthersystems.com/api/a2a
+protocol: a2a
+auth_method: jwt
+token: placeholder_jwt_token_here
+enabled: true
