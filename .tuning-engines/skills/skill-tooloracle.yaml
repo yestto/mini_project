@@ -1,4 +1,4 @@
 name: Tooloracle Skill
 description: Skill for interacting with Tooloracle A2A
-git: https://github.com/yestto/skill-tooloracle.git
+git: https://github.com/ToolOracle/oraclenet.git
 enabled: true

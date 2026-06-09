@@ -1,4 +1,4 @@
 name: AgentSearch Skill
 description: Skill for interacting with AgentSearch A2A
-git: https://github.com/yestto/skill-agentsearch.git
+git: https://github.com/luthersystems/agentsearch.git
 enabled: true

@@ -1,4 +1,4 @@
 name: US Weather Skill
 description: Skill for interacting with US Weather MCP
-git: https://github.com/yestto/skill-us-weather.git
+git: https://github.com/cyanheads/cyanheads-mcp-server.git
 enabled: true

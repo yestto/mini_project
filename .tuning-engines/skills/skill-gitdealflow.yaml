@@ -1,4 +1,4 @@
 name: GitDealFlow Signal Skill
 description: Skill for interacting with GitDealFlow Signal Agent
-git: https://github.com/yestto/skill-gitdealflow.git
+git: https://github.com/gitdealflow/gitdealflow.git
 enabled: true
