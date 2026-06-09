@@ -1,0 +1,10 @@
+name: Hacker News MCP
+
+transport:
+  type: http
+  url: https://hn.caseyjhand.com/mcp
+
+auth:
+  type: none
+
+enabled: true

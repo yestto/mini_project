@@ -1,0 +1,7 @@
+name: GitDealFlow Signal Agent
+description: VC deal flow signal agent
+
+endpoint: https://signals.gitdealflow.com/api/a2a
+
+protocol: a2a
+enabled: true
