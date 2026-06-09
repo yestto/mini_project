@@ -1,0 +1,68 @@
+name: Default Access Policy
+description: Rego policy for routing and access control
+rego: |
+  package te.tenants.tenant_43.policies.draft_f01369b0e10c4aa0
+
+  import rego.v1
+
+  default allow := {
+    "allowed": true,
+    "action": "allow",
+    "reason": "Allowed by default"
+  }
+
+  allow := {
+    "allowed": false,
+    "action": "deny",
+    "reason": "Blocked /v1/messages for complex policy test",
+    "matched_rule": "deny_messages_endpoint"
+  } if {
+    input.action_type == "endpoint_request"
+    input.endpoint == "/v1/messages"
+  } else := {
+    "allowed": false,
+    "action": "deny",
+    "reason": "Unknown Bash tool schema is blocked",
+    "matched_rule": "deny_unknown_bash_chat_tool"
+  } if {
+    input.action_type == "chat_tool"
+    lower(input.resource_name) == "bash"
+    input.registered_resource == false
+  } else := {
+    "allowed": false,
+    "action": "deny",
+    "reason": "Blocked hn_get_stories on NEW",
+    "matched_rule": "deny_new_hn_stories"
+  } if {
+    input.action_type == "mcp_tool"
+    input.mcp_server_name == "NEW"
+    input.tool_name == "hn_get_stories"
+  } else := {
+    "allowed": false,
+    "action": "needs_approval",
+    "reason": "hn_get_user for pg requires approval",
+    "matched_rule": "approve_new_hn_user_pg"
+  } if {
+    input.action_type == "mcp_tool"
+    input.mcp_server_name == "NEW"
+    input.tool_name == "hn_get_user"
+    lower(object.get(input.arguments, "username", "")) == "pg"
+    not input.approval_id
+  } else := {
+    "allowed": false,
+    "action": "needs_approval",
+    "reason": "Agent invocation requires approval",
+    "matched_rule": "approve_agent_invocation"
+  } if {
+    input.action_type == "agent"
+    lower(input.resource_name) == "your_agent_name"
+    not input.approval_id
+  } else := {
+    "allowed": false,
+    "action": "deny",
+    "reason": "Skill invocation is blocked",
+    "matched_rule": "deny_skill_invocation"
+  } if {
+    input.action_type == "skill"
+    lower(input.resource_name) == "crewai-getting-started-test"
+  }
