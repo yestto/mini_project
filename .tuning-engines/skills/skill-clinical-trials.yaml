@@ -1,3 +1,4 @@
 name: Clinical Trials Skill
 description: Skill for interacting with Clinical Trials MCP
+git: https://github.com/yestto/skill-clinical-trials.git
 enabled: true

@@ -1,3 +1,4 @@
 name: PubMed Skill
 description: Skill for interacting with PubMed MCP
+git: https://github.com/yestto/skill-pubmed.git
 enabled: true

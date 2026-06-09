@@ -1,3 +1,4 @@
 name: Hacker News Skill
 description: Skill for interacting with Hacker News MCP
+git: https://github.com/yestto/skill-hackernews.git
 enabled: true
