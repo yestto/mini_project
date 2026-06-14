@@ -3,7 +3,6 @@
 # description: Blocks embeddings and export/delete skills for non-admin; gates export MCP tools and reporting agents.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

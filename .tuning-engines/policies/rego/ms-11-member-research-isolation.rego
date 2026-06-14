@@ -3,7 +3,6 @@
 # description: Gates all member tool-enabled endpoints, MCP, agent, and skill invocations; blocks unknown schemas.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

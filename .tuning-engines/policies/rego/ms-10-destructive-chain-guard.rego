@@ -3,7 +3,6 @@
 # description: Blocks dangerous MCP, secret outputs, destructive skills for non-admin, and gates admin agents.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

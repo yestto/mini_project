@@ -3,7 +3,6 @@
 # description: Blocks unknown tool schemas, unregistered model tool calls, and outputs containing secret-like patterns.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

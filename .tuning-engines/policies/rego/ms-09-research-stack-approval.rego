@@ -3,7 +3,6 @@
 # description: Gates research tool schemas, MCP calls, and agents; blocks Tooloracle for non-admin.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

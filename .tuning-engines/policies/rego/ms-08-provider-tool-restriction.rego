@@ -3,7 +3,6 @@
 # description: Blocks provider web search and computer-use for restricted roles, gates tool-enabled endpoints for members.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

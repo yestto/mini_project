@@ -3,7 +3,6 @@
 # description: Blocks dangerous MCP tools, gates large endpoint calls, search/signal agents, and high-risk skills for non-admin users.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

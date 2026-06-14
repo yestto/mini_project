@@ -3,7 +3,6 @@
 # description: Gates all search-related endpoints, tool schemas, MCP tools, agents, and skills.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

@@ -3,7 +3,6 @@
 # description: Blocks PII-containing clinical MCP queries and gates clinical agents/skills for non-admin users.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

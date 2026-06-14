@@ -3,7 +3,6 @@
 # description: Gates tool endpoints, blocks provider tools, requires approval for agents, and blocks dangerous MCP outside corp network.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

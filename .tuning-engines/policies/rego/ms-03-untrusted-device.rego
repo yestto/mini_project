@@ -3,7 +3,6 @@
 # description: Blocks runtime invocations, gates tool-enabled endpoints, and blocks provider search on untrusted devices.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

@@ -3,7 +3,6 @@
 # description: Gates Kimi model tool traffic, large schema bundles, PubMed convert-ids, and clinical skills.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

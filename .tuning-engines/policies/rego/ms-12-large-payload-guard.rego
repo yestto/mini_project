@@ -3,7 +3,6 @@
 # description: Gates large token requests, large schemas, large MCP queries; blocks oversized tool outputs.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

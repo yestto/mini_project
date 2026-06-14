@@ -3,7 +3,6 @@
 # description: Blocks unknown schemas from anonymous clients, gates MCP/agent/skill calls without client identity.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

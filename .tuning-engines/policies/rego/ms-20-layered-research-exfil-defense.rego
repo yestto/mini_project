@@ -3,7 +3,6 @@
 # description: Blocks unknown schemas, dangerous MCP, and secret outputs; gates research tool schemas, agents, and skills for non-admin.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

@@ -3,7 +3,6 @@
 # description: Denies viewers from chat endpoints, tool schemas, and all runtime invocations.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

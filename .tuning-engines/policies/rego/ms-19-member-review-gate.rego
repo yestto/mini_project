@@ -3,7 +3,6 @@
 # description: Gates all member tool-enabled traffic and runtime invocations; blocks unknown schemas.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 

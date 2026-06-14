@@ -3,7 +3,6 @@
 # description: Blocks viewers from prod endpoints, gates non-admin tool use, blocks dangerous MCP, gates ops/admin agents.
 # custom:
 #   mode: enforce
-#   enabled: true
 
 import rego.v1
 
