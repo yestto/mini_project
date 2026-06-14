@@ -2,7 +2,7 @@
 # title: MS-03 Untrusted Device Zero-Trust Gate
 # description: Blocks runtime invocations, gates tool-enabled endpoints, and blocks provider search on untrusted devices.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

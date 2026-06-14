@@ -2,7 +2,7 @@
 # title: MS-18 Response Tool Call Control
 # description: Blocks unregistered model tool calls, gates registered research tool calls, blocks secret-like tool outputs.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

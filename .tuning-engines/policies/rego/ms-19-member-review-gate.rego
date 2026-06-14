@@ -2,7 +2,7 @@
 # title: MS-19 Member Everything But Plain Chat Needs Review
 # description: Gates all member tool-enabled traffic and runtime invocations; blocks unknown schemas.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

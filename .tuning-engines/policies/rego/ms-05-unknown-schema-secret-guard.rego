@@ -2,7 +2,7 @@
 # title: MS-05 Unknown Schema And Secret Output Guard
 # description: Blocks unknown tool schemas, unregistered model tool calls, and outputs containing secret-like patterns.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

@@ -2,7 +2,7 @@
 # title: MS-20 Layered Research And Exfiltration Defense
 # description: Blocks unknown schemas, dangerous MCP, and secret outputs; gates research tool schemas, agents, and skills for non-admin.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

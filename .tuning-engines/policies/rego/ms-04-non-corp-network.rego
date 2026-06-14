@@ -2,7 +2,7 @@
 # title: MS-04 Non-Corp Network External Action Gate
 # description: Gates tool endpoints, blocks provider tools, requires approval for agents, and blocks dangerous MCP outside corp network.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

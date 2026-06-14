@@ -2,7 +2,7 @@
 # title: MS-17 Production Safeguard Pack
 # description: Blocks viewers from prod endpoints, gates non-admin tool use, blocks dangerous MCP, gates ops/admin agents.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

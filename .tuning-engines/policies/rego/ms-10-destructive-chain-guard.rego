@@ -2,7 +2,7 @@
 # title: MS-10 Destructive Chain Guard
 # description: Blocks dangerous MCP, secret outputs, destructive skills for non-admin, and gates admin agents.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

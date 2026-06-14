@@ -2,7 +2,7 @@
 # title: MS-08 Provider Tool Restriction Composite
 # description: Blocks provider web search and computer-use for restricted roles, gates tool-enabled endpoints for members.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

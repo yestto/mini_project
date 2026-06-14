@@ -2,7 +2,7 @@
 # title: MS-15 Low-Trust Client Metadata Gate
 # description: Blocks unknown schemas from anonymous clients, gates MCP/agent/skill calls without client identity.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

@@ -2,7 +2,7 @@
 # title: MS-12 Large Payload And Long Tail Guard
 # description: Gates large token requests, large schemas, large MCP queries; blocks oversized tool outputs.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

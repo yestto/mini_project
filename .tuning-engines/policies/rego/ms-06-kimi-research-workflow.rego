@@ -2,7 +2,7 @@
 # title: MS-06 Kimi Research Workflow Approval
 # description: Gates Kimi model tool traffic, large schema bundles, PubMed convert-ids, and clinical skills.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

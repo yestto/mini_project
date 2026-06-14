@@ -2,7 +2,7 @@
 # title: MS-13 Data Export Governance Pack
 # description: Blocks embeddings and export/delete skills for non-admin; gates export MCP tools and reporting agents.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

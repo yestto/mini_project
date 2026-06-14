@@ -2,7 +2,7 @@
 # title: MS-16 Search Stack Everything Approval
 # description: Gates all search-related endpoints, tool schemas, MCP tools, agents, and skills.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

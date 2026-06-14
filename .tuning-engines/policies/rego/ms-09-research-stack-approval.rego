@@ -2,7 +2,7 @@
 # title: MS-09 Research Stack Approval And Tooloracle Deny
 # description: Gates research tool schemas, MCP calls, and agents; blocks Tooloracle for non-admin.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

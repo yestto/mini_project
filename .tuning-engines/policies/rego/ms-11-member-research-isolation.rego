@@ -2,7 +2,7 @@
 # title: MS-11 Member Research Isolation
 # description: Gates all member tool-enabled endpoints, MCP, agent, and skill invocations; blocks unknown schemas.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1

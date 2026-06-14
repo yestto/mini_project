@@ -2,7 +2,7 @@
 # title: MS-14 Medical And Finance Dual Domain
 # description: Blocks sensitive-term MCP args, gates med/fin endpoints, agents, and skills for non-admin.
 # custom:
-#   enforcement_mode: enforce
+#   mode: enforce
 #   enabled: true
 
 import rego.v1
