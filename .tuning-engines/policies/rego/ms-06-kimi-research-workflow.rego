@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-06 Kimi Research Workflow Approval
+# description: Gates Kimi model tool traffic, large schema bundles, PubMed convert-ids, and clinical skills.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-10 Destructive Chain Guard
+# description: Blocks dangerous MCP, secret outputs, destructive skills for non-admin, and gates admin agents.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

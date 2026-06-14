@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-19 Member Everything But Plain Chat Needs Review
+# description: Gates all member tool-enabled traffic and runtime invocations; blocks unknown schemas.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

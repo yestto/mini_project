@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-15 Low-Trust Client Metadata Gate
+# description: Blocks unknown schemas from anonymous clients, gates MCP/agent/skill calls without client identity.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

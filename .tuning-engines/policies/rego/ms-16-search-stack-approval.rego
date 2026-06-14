@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-16 Search Stack Everything Approval
+# description: Gates all search-related endpoints, tool schemas, MCP tools, agents, and skills.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

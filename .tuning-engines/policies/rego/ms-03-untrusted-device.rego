@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-03 Untrusted Device Zero-Trust Gate
+# description: Blocks runtime invocations, gates tool-enabled endpoints, and blocks provider search on untrusted devices.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

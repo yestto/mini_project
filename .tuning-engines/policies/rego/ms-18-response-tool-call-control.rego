@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-18 Response Tool Call Control
+# description: Blocks unregistered model tool calls, gates registered research tool calls, blocks secret-like tool outputs.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

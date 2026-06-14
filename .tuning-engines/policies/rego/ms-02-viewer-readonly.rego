@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-02 Viewer Read-Only Lockdown
+# description: Denies viewers from chat endpoints, tool schemas, and all runtime invocations.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-13 Data Export Governance Pack
+# description: Blocks embeddings and export/delete skills for non-admin; gates export MCP tools and reporting agents.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

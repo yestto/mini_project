@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-01 Non-Admin High-Risk Runtime Gate
+# description: Blocks dangerous MCP tools, gates large endpoint calls, search/signal agents, and high-risk skills for non-admin users.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

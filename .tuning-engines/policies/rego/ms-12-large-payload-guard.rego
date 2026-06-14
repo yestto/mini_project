@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-12 Large Payload And Long Tail Guard
+# description: Gates large token requests, large schemas, large MCP queries; blocks oversized tool outputs.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

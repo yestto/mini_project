@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-14 Medical And Finance Dual Domain
+# description: Blocks sensitive-term MCP args, gates med/fin endpoints, agents, and skills for non-admin.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-17 Production Safeguard Pack
+# description: Blocks viewers from prod endpoints, gates non-admin tool use, blocks dangerous MCP, gates ops/admin agents.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}

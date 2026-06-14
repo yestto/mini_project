@@ -1,3 +1,11 @@
+# METADATA
+# title: MS-07 Clinical Safety Composite
+# description: Blocks PII-containing clinical MCP queries and gates clinical agents/skills for non-admin users.
+# custom:
+#   enforcement_mode: enforce
+#   enabled: true
+#   scope: all_actions
+
 import rego.v1
 
 default allow := {"allowed": true, "action": "allow", "reason": "Allowed by default"}
