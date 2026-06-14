@@ -4,7 +4,6 @@
 # custom:
 #   enforcement_mode: enforce
 #   enabled: true
-#   scope: all_actions
 
 import rego.v1
 
